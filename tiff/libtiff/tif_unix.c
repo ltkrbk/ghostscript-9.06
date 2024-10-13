@@ -52,7 +52,7 @@
 #ifdef HAVE_IO_H
 # include <io.h>
 #endif
-
+typedef unsigned long int uintptr_t;
 #include "tiffiop.h"
 
 static tmsize_t
